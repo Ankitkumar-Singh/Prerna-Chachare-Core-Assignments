@@ -2,7 +2,7 @@
 .NET Core Training
 
 ## ConsoleApp Folder - Assignment 2(To calculate factorial of given input number)
-###  Output Folder - Console Commands and screenshot
+Output Folder - Console Commands and screenshot
 
 ## FirstCoreApp Folder - Assignment 2 & 3(Image file of exception occured using AddMvcCore named ResultUsingAddMvcCore.png)
 
