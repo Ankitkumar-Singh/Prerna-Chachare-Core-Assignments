@@ -1,0 +1,52 @@
+﻿@model MyFirstCoreMVCApp.Models.Employee
+
+@using MyFirstCoreMVCApp.Models
+
+@{
+    ViewData["Title"] = "Save";
+}
+
+<div class="container py-5 my-5">
+    <h3>Save Employee</h3>
+    <hr />
+    <form asp-action="Save" asp-controller="Employee" method="post">
+        <div class="form-horizontal">
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Department" class="control-label"></label>
+                <input asp-for="Department" class="form-control" />
+                <span asp-validation-for="Department" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Skills" class="control-label"></label>
+                <select asp-for="Skills" class="form-control" asp-items="Html.GetEnumSelectList<Skills>()"></select>
+                <span asp-validation-for="Skills" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <textarea asp-for="Address" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label"></label>
+                <label><input type="radio" name="Gender" value="Male" checked /> Male</label>
+                <label><input type="radio" name="Gender" value="Female" /> Female</label>
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AcceptTerms" class="control-label">Accept Terms</label>
+                <input type="checkbox" asp-for="AcceptTerms" value="true" />
+                <span asp-validation-for="AcceptTerms" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-success" />
+                <a asp-action="Index" asp-controller="Employee" class="btn btn-info ml-1">Back to List</a>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,49 @@
+﻿@model IEnumerable<MyFirstCoreMVCApp.Models.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container py-5 mx-auto">
+    <a asp-controller="Employee" asp-action="Save" class="btn btn-success float-right mb-1">Add Employee</a>
+    <table class="table table-hover w-100">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Skill</th>
+                <th>Address</th>
+                <th>Gender</th>
+                <th>Accepted Terms</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Department</td>
+                    <td>@item.Skills</td>
+                    <td>@item.Address</td>
+                    <td>@item.Gender</td>
+                    @if (item.AcceptTerms == true)
+                    {
+                        <td>Yes</td>
+                    }
+                    else
+                    {
+                        <td>No</td>
+                    }
+                    <td>
+                        <a asp-controller="Employee" asp-action="Details" asp-route-id="@item.Id" class="btn btn-warning">Details</a>
+                        <a asp-controller="Employee" asp-action="Save" asp-route-id="@item.Id" class="btn btn-info">Update</a>
+                        <a asp-controller="Employee" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger mt-1">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

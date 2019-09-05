@@ -1,0 +1,14 @@
+D:\Prerna-Chachare\.NET Core Training\MyFirstCoreApplication\MyFirstCoreApplication\bin\Debug\netcoreapp2.2\MyFirstCoreApplication.deps.json
+D:\Prerna-Chachare\.NET Core Training\MyFirstCoreApplication\MyFirstCoreApplication\bin\Debug\netcoreapp2.2\MyFirstCoreApplication.runtimeconfig.json
+D:\Prerna-Chachare\.NET Core Training\MyFirstCoreApplication\MyFirstCoreApplication\bin\Debug\netcoreapp2.2\MyFirstCoreApplication.runtimeconfig.dev.json
+D:\Prerna-Chachare\.NET Core Training\MyFirstCoreApplication\MyFirstCoreApplication\bin\Debug\netcoreapp2.2\MyFirstCoreApplication.dll
+D:\Prerna-Chachare\.NET Core Training\MyFirstCoreApplication\MyFirstCoreApplication\bin\Debug\netcoreapp2.2\MyFirstCoreApplication.pdb
+D:\Prerna-Chachare\.NET Core Training\MyFirstCoreApplication\MyFirstCoreApplication\obj\Debug\netcoreapp2.2\MyFirstCoreApplication.csproj.CoreCompileInputs.cache
+D:\Prerna-Chachare\.NET Core Training\MyFirstCoreApplication\MyFirstCoreApplication\obj\Debug\netcoreapp2.2\MyFirstCoreApplication.RazorAssemblyInfo.cache
+D:\Prerna-Chachare\.NET Core Training\MyFirstCoreApplication\MyFirstCoreApplication\obj\Debug\netcoreapp2.2\MyFirstCoreApplication.RazorAssemblyInfo.cs
+D:\Prerna-Chachare\.NET Core Training\MyFirstCoreApplication\MyFirstCoreApplication\obj\Debug\netcoreapp2.2\MyFirstCoreApplication.AssemblyInfoInputs.cache
+D:\Prerna-Chachare\.NET Core Training\MyFirstCoreApplication\MyFirstCoreApplication\obj\Debug\netcoreapp2.2\MyFirstCoreApplication.AssemblyInfo.cs
+D:\Prerna-Chachare\.NET Core Training\MyFirstCoreApplication\MyFirstCoreApplication\obj\Debug\netcoreapp2.2\MyFirstCoreApplication.RazorTargetAssemblyInfo.cache
+D:\Prerna-Chachare\.NET Core Training\MyFirstCoreApplication\MyFirstCoreApplication\obj\Debug\netcoreapp2.2\MyFirstCoreApplication.dll
+D:\Prerna-Chachare\.NET Core Training\MyFirstCoreApplication\MyFirstCoreApplication\obj\Debug\netcoreapp2.2\MyFirstCoreApplication.pdb
+D:\Prerna-Chachare\.NET Core Training\MyFirstCoreApplication\MyFirstCoreApplication\obj\Debug\netcoreapp2.2\MyFirstCoreApplication.csprojAssemblyReference.cache

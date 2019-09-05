@@ -1,0 +1,16 @@
+D:\Prerna-Chachare\.NET Core Training>dotnet new console -n MyFirstConsoleApp
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on MyFirstConsoleApp\MyFirstConsoleApp.csproj...
+  Restore completed in 619.66 ms for D:\Prerna-Chachare\.NET Core Training\MyFirstConsoleApp\MyFirstConsoleApp.csproj.
+
+Restore succeeded.
+
+
+D:\Prerna-Chachare\.NET Core Training>cd MyFirstConsoleApp
+
+D:\Prerna-Chachare\.NET Core Training\MyFirstConsoleApp>dotnet run
+Hello World!
+
+D:\Prerna-Chachare\.NET Core Training\MyFirstConsoleApp>

@@ -1,0 +1,11 @@
+D:\Prerna-Chachare\.NET Core Training\MyFirstConsoleApp\bin\Debug\netcoreapp2.2\MyFirstConsoleApp.deps.json
+D:\Prerna-Chachare\.NET Core Training\MyFirstConsoleApp\bin\Debug\netcoreapp2.2\MyFirstConsoleApp.runtimeconfig.json
+D:\Prerna-Chachare\.NET Core Training\MyFirstConsoleApp\bin\Debug\netcoreapp2.2\MyFirstConsoleApp.runtimeconfig.dev.json
+D:\Prerna-Chachare\.NET Core Training\MyFirstConsoleApp\bin\Debug\netcoreapp2.2\MyFirstConsoleApp.dll
+D:\Prerna-Chachare\.NET Core Training\MyFirstConsoleApp\bin\Debug\netcoreapp2.2\MyFirstConsoleApp.pdb
+D:\Prerna-Chachare\.NET Core Training\MyFirstConsoleApp\obj\Debug\netcoreapp2.2\MyFirstConsoleApp.csprojAssemblyReference.cache
+D:\Prerna-Chachare\.NET Core Training\MyFirstConsoleApp\obj\Debug\netcoreapp2.2\MyFirstConsoleApp.csproj.CoreCompileInputs.cache
+D:\Prerna-Chachare\.NET Core Training\MyFirstConsoleApp\obj\Debug\netcoreapp2.2\MyFirstConsoleApp.AssemblyInfoInputs.cache
+D:\Prerna-Chachare\.NET Core Training\MyFirstConsoleApp\obj\Debug\netcoreapp2.2\MyFirstConsoleApp.AssemblyInfo.cs
+D:\Prerna-Chachare\.NET Core Training\MyFirstConsoleApp\obj\Debug\netcoreapp2.2\MyFirstConsoleApp.dll
+D:\Prerna-Chachare\.NET Core Training\MyFirstConsoleApp\obj\Debug\netcoreapp2.2\MyFirstConsoleApp.pdb
