@@ -6,7 +6,7 @@ Output Folder - Console Commands and Screenshot of Output
 
 ### FirstCoreApp Folder - Assignment 2 & 3(Image file of exception occured using AddMvcCore named ResultUsingAddMvcCore.png)
 
-### FirstMVCApp Folder - Assignment 5(Create a MVC Appliction and perform CRUD operations without using Database)
+### FirstMVCApp Folder - Assignment 4 & 5(Create a MVC Appliction and perform CRUD operations without using Database)
 
 ### DBOperations Folder - Assignment 6(To perform CRUD Operations using Entity Framework)
 
