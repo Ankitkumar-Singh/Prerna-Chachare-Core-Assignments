@@ -30,6 +30,7 @@ namespace MyFirstCoreMVCApp.Models
         public bool AcceptTerms { get; set; }
     }
 
+    // Enum to display skills dropdown
     public enum Skills
     {
         None,

@@ -8,17 +8,21 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/png" sizes="16x16" href="~/images/Logo.png">
     <link rel="stylesheet" href="~/css/bootstrap.min.css" />
-	<link href="~/css/Style.css" rel="stylesheet" />
+    <link href="~/css/Style.css" rel="stylesheet" />
     <script src="~/js/jquery.min.js"></script>
     <script src="~/js/jquery.validate.min.js"></script>
     <script src="~/js/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/js/popper.min.js"></script>
     <script src="~/js/bootstrap.min.js"></script>
     <title>My First Core MVC App</title>
 </head>
 <body>
     <div class="navbar navbar-expand-sm bg-light navbar-light">
-        <div class="navbar-brand">My First MVC Core App</div>
+        <div class="navbar-brand">
+            <img src="~/images/Logo.png" asp-append-version="true" width="50" height="50" /> My First MVC Core App
+        </div>
     </div>
 
     @RenderBody()

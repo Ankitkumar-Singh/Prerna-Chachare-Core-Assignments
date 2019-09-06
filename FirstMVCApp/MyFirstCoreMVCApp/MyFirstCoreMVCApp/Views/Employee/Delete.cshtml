@@ -30,11 +30,9 @@
             <dd>No</dd>
         }
     </dl>
-    @using (Html.BeginForm())
-    {
-        <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-danger" />
-            <a asp-action="Index" asp-controller="Employee" class="btn btn-info ml-1">Back to List</a>
-        </div>
-    }
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-info ml-1">Back to List</a>
+    </form>
 </div>
