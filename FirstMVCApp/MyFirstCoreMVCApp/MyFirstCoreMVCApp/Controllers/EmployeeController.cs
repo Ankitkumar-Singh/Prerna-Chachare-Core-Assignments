@@ -58,7 +58,7 @@ namespace MyFirstCoreMVCApp.Controllers
         [Route("Save")]
         public IActionResult Save(Employee employee)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
                 return RedirectToAction("Index", _employeeRepository.SaveEmployee(employee));
             return View();
         }
