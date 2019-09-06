@@ -1,6 +1,11 @@
 # Prerna-Chachare-Core-Assignments
 .NET Core Training
 
+### Assignment 1 - 
+Checked if SDK is already installed.
+Checked the version of SDK, it was 2.1 so upgraded the version to 2.2.
+Latest version of SDK was available in Visual Studio.
+
 ### ConsoleApp Folder - Assignment 2(To calculate factorial of given input number)
 Output Folder - Console Commands and Screenshot of Output
 
