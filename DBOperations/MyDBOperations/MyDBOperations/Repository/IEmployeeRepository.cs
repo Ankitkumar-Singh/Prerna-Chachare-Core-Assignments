@@ -64,13 +64,9 @@ namespace MyDBOperations.Repository
             if (employee != null)
             {
                 if (employee.Id == 0)
-                {
                     _context.Employee.Add(employee);
-                }
                 else
-                {
                     _context.Entry(employee).State = EntityState.Modified;
-                }
                 _context.SaveChanges();
             }
             return _context.Employee.Where(e => e.Name == employee.Name).FirstOrDefault();
